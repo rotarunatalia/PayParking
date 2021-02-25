@@ -72,7 +72,7 @@ namespace PayParking.Tests
         }
 
         [Test]
-        public void CalculateFee_WhenVehicleUnderOneMinute()
+        public void CalculateFee_WhenVehicleParksUnderOneMinute()
         {
             //Arrange
             var entryTime = DateTime.Now;
